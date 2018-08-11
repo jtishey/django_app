@@ -11,6 +11,10 @@ To get started:
 
 `./run.sh`
 
+`docker exec -it django_app bash`
+
+`python3 /var/www/django_app/manage.py migrate`
+
 
 Browse to http://127.0.0.1
 

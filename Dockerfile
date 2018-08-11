@@ -20,8 +20,7 @@ RUN a2enmod headers
 ENTRYPOINT ["/usr/local/bin/entrypoint.sh"]
 VOLUME ["/var/lib/mysql"]
 
-EXPOSE 80 3306
-RUN python3 /var/www/django_app/manage.py migrate
+EXPOSE 80
 
 CMD ["apache2ctl", "-D", "FOREGROUND"]
 
