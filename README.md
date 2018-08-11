@@ -5,11 +5,11 @@ Sets up a template project named django_app
 
 To get started:
 
-`cd django_app
+`cd django_app`
 
-docker build -t django_app .
+`docker build -t django_app .`
 
-./run.sh`
+`./run.sh`
 
 
 Browse to http://127.0.0.1
