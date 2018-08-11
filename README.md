@@ -16,4 +16,6 @@ Browse to http://127.0.0.1
 
 
 mysql db stored in ./mysql directory on host
+
 django project stored in ./app directory on host
+
